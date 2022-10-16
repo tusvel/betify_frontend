@@ -1,7 +1,8 @@
-import '../styles/globals.css';
-import type { AppProps } from 'next/app';
-import '@/assets/styles/globals.scss';
 import { DevSupport } from '@react-buddy/ide-toolbox';
+import type { AppProps } from 'next/app';
+
+import '@/assets/styles/globals.scss';
+
 import { ComponentPreviews, useInitial } from '../dev';
 
 function MyApp({ Component, pageProps }: AppProps) {

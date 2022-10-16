@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
   swcMinify: true,
-  poweredByHeader: false,
-  optimizeFonts: false,
+  poweredByHeader: false, // Чтобы если кто-то будет пробивать, то он не видел что наш сайт сделан на next.js и тд
   env: {
     APP_URL: process.env.REACT_APP_URL,
     APP_ENV: process.env.REACT_APP_ENV,
