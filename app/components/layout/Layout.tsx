@@ -1,7 +1,16 @@
-import { FC } from 'react';
+import { FC, PropsWithChildren } from 'react';
 
-const Layout: FC = () => {
-  return <div>Layout</div>;
+import Navigation from '@/components/layout/Navigation/Navigation';
+
+import styles from './Layout.module.scss';
+
+const Layout: FC<PropsWithChildren> = ({ children }) => {
+  return (
+    <div className={styles.layout}>
+      <Navigation />
+      <div className={styles.content}>{children}</div>
+    </div>
+  );
 };
 
 export default Layout;

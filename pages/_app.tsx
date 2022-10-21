@@ -3,6 +3,7 @@ import type { AppProps } from 'next/app';
 
 import '@/assets/styles/globals.scss';
 
+import MainProvider from '../app/providers/MainProvider';
 import { ComponentPreviews, useInitial } from '../dev';
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -11,7 +12,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       ComponentPreviews={ComponentPreviews}
       useInitialHook={useInitial}
     >
-      <Component {...pageProps} />
+      <MainProvider>
+        <Component {...pageProps} />
+      </MainProvider>
     </DevSupport>
   );
 }

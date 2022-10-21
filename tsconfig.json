@@ -20,6 +20,7 @@
       "@/ui/*": ["components/ui/*"],
       "@/pages/*": ["components/pages/*"],
       "@/hooks/*": ["hooks/*"],
+      "@/types/*": ["types/*"],
       "@/shared/*": ["shared/*"],
       "@/config/*": ["config/*"],
       "@/services/*": ["services/*"],

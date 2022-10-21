@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', 'sans-serif';
+  color: #b3b3b3;
+  @apply bg-black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type='file'],
+input[type='file']::-webkit-file-upload-button {
+  @apply cursor-pointer focus:outline-none;
+}
+
+:root {
+  --green-color: '#57B660';
+}
+
+input:focus {
+  box-shadow: none !important;
+}

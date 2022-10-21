@@ -1,0 +1,19 @@
+.menuItem {
+  border-radius: 4px;
+  padding: 10px 0 10px 20px;
+  &.active {
+    background: #282828;
+  }
+}
+
+.menuItemLink {
+  @apply flex items-center font-medium transition-colors;
+  &:hover {
+    @apply text-white;
+  }
+}
+
+.menuIcon {
+  margin-right: 5px;
+  font-size: 25px;
+}
