@@ -6,11 +6,11 @@ import Meta from '@/utils/meta/Meta';
 
 const Home: FC = () => {
   return (
-    <Layout>
-      <Meta title="Music" description="Listen to music in Betify.">
+    <Meta title="Music" description="Listen to music in Betify.">
+      <Layout>
         <div>Home</div>
-      </Meta>
-    </Layout>
+      </Layout>
+    </Meta>
   );
 };
 
