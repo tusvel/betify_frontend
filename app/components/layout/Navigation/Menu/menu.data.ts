@@ -40,7 +40,7 @@ export const secondMenu: IMenu = {
     {
       title: 'Trending now',
       icon: 'MdTrendingUp',
-      link: '/liked-songs'
+      link: '/trending-now'
     }
   ]
 };

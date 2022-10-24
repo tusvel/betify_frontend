@@ -12,8 +12,6 @@ const HeadProvider: FC<PropsWithChildren> = ({ children }) => {
         height={3}
       />
       <Head>
-        <title></title>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1.0"
@@ -21,6 +19,8 @@ const HeadProvider: FC<PropsWithChildren> = ({ children }) => {
         <meta name="theme-color" content="#B2B2B2" />
         <meta name="msapplication-navbutton-color" content="#B2B2B2" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#B2B2B2" />
+        <title></title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
       {children}
     </>

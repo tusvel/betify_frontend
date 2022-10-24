@@ -11,8 +11,8 @@ const Menu: FC = () => {
   return (
     <div className={cn(styles.menu)}>
       <MenuHeader />
-      {menus.map((menu) => (
-        <MenuList key={menu.title} menu={menu} />
+      {menus.map((menu, index) => (
+        <MenuList key={index} menu={menu} />
       ))}
     </div>
   );

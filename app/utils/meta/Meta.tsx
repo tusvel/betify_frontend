@@ -29,7 +29,7 @@ const Meta: FC<PropsWithChildren & ISeo> = ({
               name="description"
               content={onlyText(description, 152)}
             />
-            <link rel="stylesheet" href={currentUrl} />
+            <link rel="canonical" href={currentUrl} />
             <meta property="locale" content="en" />
             <meta property="og:title" content={titleMerge(title)} />
             <meta property="og:url" content={currentUrl} />

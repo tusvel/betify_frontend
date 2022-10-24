@@ -6,7 +6,7 @@ import Meta from '@/utils/meta/Meta';
 
 const Home: FC = () => {
   return (
-    <Meta title="Music" description="Listen to music in Betify.">
+    <Meta title="Music" description="Listen to music on Betify.">
       <Layout>
         <div>Home</div>
       </Layout>
