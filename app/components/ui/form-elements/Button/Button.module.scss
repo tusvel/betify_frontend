@@ -1,0 +1,16 @@
+.button {
+  @apply transition-colors;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+  background: #04c35c;
+  width: 100%;
+  border-radius: 5px;
+  &:hover {
+    background: #04a44d;
+  }
+}

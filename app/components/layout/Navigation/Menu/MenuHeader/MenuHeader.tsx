@@ -9,7 +9,7 @@ const MenuHeader: FC = () => {
   return (
     <div className={styles.menuHeader}>
       <Link href="/">
-        <a>
+        <a className={styles.logo}>
           <Logo />
         </a>
       </Link>
